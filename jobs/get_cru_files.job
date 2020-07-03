@@ -1,0 +1,6 @@
+#!/bin/bash 
+#BSUB -o %J.out 
+#BSUB -e %J.err 
+#BSUB -W 08:00
+
+find -L /badc/cru/data/ -name "*.nc" -o -name "*.nc.gz" | xargs -I{} echo {} > ../data/raw/cru_files.txt

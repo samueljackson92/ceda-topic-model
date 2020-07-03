@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+scikit-learn
+tqdm
+h5py
+xarray
+click
+pandarallel 

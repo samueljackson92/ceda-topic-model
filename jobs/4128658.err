@@ -1,0 +1,5 @@
+find: `/badc/cru/data/cru_cy/cru_cy_3.24': Permission denied
+find: `/badc/cru/data/cru_ts/cru_ts_3.24': Permission denied
+find: `/badc/cru/data/cru_ts/cru_ts_4.00/comparisons.210.vs.400': Permission denied
+find: `/badc/cru/data/cru_ts/cru_ts_4.00/comparisons.32401.vs.400': Permission denied
+find: `/badc/cru/data/crutem/.crutem4': Permission denied

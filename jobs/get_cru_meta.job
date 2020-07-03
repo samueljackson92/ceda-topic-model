@@ -1,0 +1,9 @@
+#!/bin/bash 
+#BSUB -q par-single
+#BSUB -n 8
+#BSUB -o %J.out 
+#BSUB -e %J.err 
+#BSUB -W 08:00
+
+conda activate ffc
+python ffc/extract_corpus.py data/raw/cru_files.txt data/processed/cru

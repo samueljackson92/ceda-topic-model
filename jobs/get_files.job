@@ -1,0 +1,6 @@
+#!/bin/bash 
+#BSUB -o %J.out 
+#BSUB -e %J.err 
+#BSUB -W 08:00
+
+find -L /badc/cmip5/data/cmip5/ -name "*.nc" | xargs -I{} echo {} > ../data/raw/cmip5_files.txt

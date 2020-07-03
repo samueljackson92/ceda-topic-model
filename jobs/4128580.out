@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@host312.jc.rl.ac.uk>
+Subject: Job 4128580: <#!/bin/bash ;#BSUB -o %J.out ;#BSUB -e %J.err ;#BSUB -W 08:00; find -L /badc/cmip5/data/cmip5/ -name "*.nc" | xargs -I{} echo {} > ../data/raw/cmip5_files.txt> in cluster <lotus> Exited
+
+Job <#!/bin/bash ;#BSUB -o %J.out ;#BSUB -e %J.err ;#BSUB -W 08:00; find -L /badc/cmip5/data/cmip5/ -name "*.nc" | xargs -I{} echo {} > ../data/raw/cmip5_files.txt> was submitted from host <jasmin-sci1-panfs.ceda.ac.uk> by user <sljack> in cluster <lotus>.
+Job was executed on host(s) <host312.jc.rl.ac.uk>, in queue <short-serial>, as user <sljack> in cluster <lotus>.
+</home/users/sljack> was used as the home directory.
+</home/users/sljack/git/files-for-climate/jobs> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash 
+#BSUB -o %J.out 
+#BSUB -e %J.err 
+#BSUB -W 08:00
+
+find -L /badc/cmip5/data/cmip5/ -name "*.nc" | xargs -I{} echo {} > ../data/raw/cmip5_files.txt
+
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   586.00 sec.
+    Max Memory :                                 4 MB
+    Average Memory :                             3.03 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   438 MB
+    Max Processes :                              6
+    Max Threads :                                6
+    Run time :                                   28803 sec.
+    Turnaround time :                            28798 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <4128580.err> for stderr output of this job.
+
